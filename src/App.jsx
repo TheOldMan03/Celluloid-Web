@@ -1,9 +1,7 @@
 import React from "react"
 import Navbar from "./components/navbar"
-import ButtonCard from "./components/buttonCard"
-import herobg from "./assets/hero-bg.jfif"
-import hero1 from "./assets/hero1.png"
-import hero2 from "./assets/hero2.png"
+import Hero from "./components/hero"
+
 
 function App() {
   return (
@@ -11,35 +9,18 @@ function App() {
     <div className="bg-white w-screen h-screen text-black">
       {/* This is the main div */}
       <Navbar/>
+      <Hero/>
 
-      <div className="w-screen h-[80%] flex absolute">
-        {/* This is the hero section */}
-
-        <div className="my-32 ml-12">
-          <img src={hero1} alt="" className="z-10 relative w-60 h-64 rotate-[-24deg]" />
+      <div className="w-screen bg-[#3a3636] h-1/6 absolute bottom-0 text-white flex items-center">
+        {/* This is the footer */}
+        
+        <div className="ml-24 font-medium text-lg">
+          Celluloid
         </div>
 
-        <img src={herobg} alt="" className="w-screen h-4/5 absolute z-0"/> 
-
-        <div className="z-20 flex flex-col mx-auto mt-20">
-          <div className="mt-4">
-            <p className="font-medium text-3xl">Experience Script Writing</p><p className="font-medium text-3xl text-center">Like Never Before</p>
-          </div>
-
-          <div className="mt-12">
-            <p className="font-medium text-lg">Effortlessly craft compelling movie scripts</p><p className="font-medium text-lg text-center">with our powerful AI</p>
-          </div>
-
-          <div className="mx-auto mt-12">
-            <ButtonCard text="Get Started With Ai"/>
-          </div>
-
+        <div className="flex flex-col mx-auto">
+          Hello
         </div>
-
-        <div className="my-32 mr-16">
-          <img src={hero2} alt="" className="z-10 relative w-60 h-64" />
-        </div>
-
 
 
       </div>
