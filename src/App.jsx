@@ -21,7 +21,7 @@ function App() {
 
         <img src={herobg} alt="" className="w-screen h-4/5 absolute z-0"/> 
 
-        <div className="z-20 flex flex-col mx-auto">
+        <div className="z-20 flex flex-col mx-auto mt-20">
           <div className="mt-4">
             <p className="font-medium text-3xl">Experience Script Writing</p><p className="font-medium text-3xl text-center">Like Never Before</p>
           </div>
