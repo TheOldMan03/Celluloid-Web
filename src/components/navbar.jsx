@@ -1,4 +1,5 @@
 import logo from "../assets/mainlogo.png"
+import ButtonCard from "./buttonCard"
 
 export default function Navbar(){
     return (
@@ -19,10 +20,8 @@ export default function Navbar(){
                     <div className="mx-8 text-xl">Blog</div>
                 </div>
 
-                <div className="mt-8 mr-10">
-                    <button className="h-16 py-3 w-44 font-bold text-center text-base text-white rounded-full block bg-[#3a3636] hover:bg-[#8b8888]">
-                        Get Started
-                    </button>
+                <div className="mt-8 mb-4 mr-10">
+                    <ButtonCard text="Get Started"/>
                 </div>
 
             </div>
